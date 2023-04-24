@@ -102,7 +102,7 @@ class MusicTableViewController: UITableViewController {
         // Get the new view controller using segue.destination.
         if let indexPath = tableView.indexPathForSelectedRow {
             // Pass the selected object to the new view controller.
-            let detailVC = segue.destination as? DetailViewController
+            let detailVC = segue.destination as? SongDetailsViewController
             detailVC?.song = songs[indexPath.row]
         }
     }

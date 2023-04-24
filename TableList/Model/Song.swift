@@ -15,9 +15,9 @@ struct Song {
     static func createSong() -> [Song] {
         var songs: [Song] = []
         
-        let tracks = DataManager.shared.track
-        let albums = DataManager.shared.album
-        let covers = DataManager.shared.cover
+        let tracks = MusicDataManager.shared.track
+        let albums = MusicDataManager.shared.album
+        let covers = MusicDataManager.shared.cover
         
         for i in 0..<tracks.count {
             let song = Song(track: tracks[i], album: albums[i], cover: covers[i])

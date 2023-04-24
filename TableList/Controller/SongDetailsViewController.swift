@@ -1,5 +1,5 @@
 //
-//  DetailViewController.swift
+//  SongDetailsViewController.swift
 //  TableList
 //
 //  Created by patricija.vainovska on 24/04/2023.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class SongDetailsViewController: UIViewController {
 
     @IBOutlet weak var trackImageView: UIImageView!
     @IBOutlet weak var trackNameLabel: UILabel!

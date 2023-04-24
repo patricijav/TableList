@@ -1,5 +1,5 @@
 //
-//  DataManager.swift
+//  MusicDataManager.swift
 //  TableList
 //
 //  Created by patricija.vainovska on 24/04/2023.
@@ -7,8 +7,8 @@
 
 import Foundation
 
-class DataManager {
-    static let shared = DataManager()
+class MusicDataManager {
+    static let shared = MusicDataManager()
     
     var track = [
         "Carly Rae Japsen",

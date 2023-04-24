@@ -13,11 +13,14 @@
 		500B26B029F6A61F0016CA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500B26AF29F6A61F0016CA93 /* Assets.xcassets */; };
 		500B26B329F6A61F0016CA93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 500B26B129F6A61F0016CA93 /* LaunchScreen.storyboard */; };
 		500B26BE29F6A8630016CA93 /* MusicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500B26BD29F6A8630016CA93 /* MusicTableViewController.swift */; };
-		500B26C129F6AC610016CA93 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500B26C029F6AC610016CA93 /* DataManager.swift */; };
+		500B26C129F6AC610016CA93 /* MusicDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500B26C029F6AC610016CA93 /* MusicDataManager.swift */; };
 		500B26C329F6ACF40016CA93 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500B26C229F6ACF40016CA93 /* Song.swift */; };
-		500B26C529F6B00B0016CA93 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500B26C429F6B00B0016CA93 /* DetailViewController.swift */; };
+		500B26C529F6B00B0016CA93 /* SongDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500B26C429F6B00B0016CA93 /* SongDetailsViewController.swift */; };
 		500B26C729F6F8020016CA93 /* MoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500B26C629F6F8020016CA93 /* MoviesTableViewCell.swift */; };
 		500B26C929F6F9B30016CA93 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500B26C829F6F9B30016CA93 /* MoviesTableViewController.swift */; };
+		500B26CB29F6FD480016CA93 /* MoviesDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500B26CA29F6FD480016CA93 /* MoviesDataManager.swift */; };
+		500B26CD29F701040016CA93 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500B26CC29F701040016CA93 /* Movie.swift */; };
+		500B26CF29F70F430016CA93 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500B26CE29F70F430016CA93 /* MovieDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +32,14 @@
 		500B26B229F6A61F0016CA93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		500B26B429F6A61F0016CA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		500B26BD29F6A8630016CA93 /* MusicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewController.swift; sourceTree = "<group>"; };
-		500B26C029F6AC610016CA93 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		500B26C029F6AC610016CA93 /* MusicDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDataManager.swift; sourceTree = "<group>"; };
 		500B26C229F6ACF40016CA93 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
-		500B26C429F6B00B0016CA93 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		500B26C429F6B00B0016CA93 /* SongDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailsViewController.swift; sourceTree = "<group>"; };
 		500B26C629F6F8020016CA93 /* MoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewCell.swift; sourceTree = "<group>"; };
 		500B26C829F6F9B30016CA93 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
+		500B26CA29F6FD480016CA93 /* MoviesDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDataManager.swift; sourceTree = "<group>"; };
+		500B26CC29F701040016CA93 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		500B26CE29F70F430016CA93 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				500B26BD29F6A8630016CA93 /* MusicTableViewController.swift */,
-				500B26C429F6B00B0016CA93 /* DetailViewController.swift */,
+				500B26C429F6B00B0016CA93 /* SongDetailsViewController.swift */,
 				500B26C629F6F8020016CA93 /* MoviesTableViewCell.swift */,
 				500B26C829F6F9B30016CA93 /* MoviesTableViewController.swift */,
+				500B26CE29F70F430016CA93 /* MovieDetailsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -108,8 +115,10 @@
 		500B26BF29F6AC270016CA93 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				500B26C029F6AC610016CA93 /* DataManager.swift */,
+				500B26C029F6AC610016CA93 /* MusicDataManager.swift */,
 				500B26C229F6ACF40016CA93 /* Song.swift */,
+				500B26CA29F6FD480016CA93 /* MoviesDataManager.swift */,
+				500B26CC29F701040016CA93 /* Movie.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,9 +195,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				500B26A729F6A61D0016CA93 /* AppDelegate.swift in Sources */,
-				500B26C129F6AC610016CA93 /* DataManager.swift in Sources */,
+				500B26C129F6AC610016CA93 /* MusicDataManager.swift in Sources */,
 				500B26A929F6A61D0016CA93 /* SceneDelegate.swift in Sources */,
-				500B26C529F6B00B0016CA93 /* DetailViewController.swift in Sources */,
+				500B26C529F6B00B0016CA93 /* SongDetailsViewController.swift in Sources */,
+				500B26CD29F701040016CA93 /* Movie.swift in Sources */,
+				500B26CF29F70F430016CA93 /* MovieDetailsViewController.swift in Sources */,
+				500B26CB29F6FD480016CA93 /* MoviesDataManager.swift in Sources */,
 				500B26C929F6F9B30016CA93 /* MoviesTableViewController.swift in Sources */,
 				500B26BE29F6A8630016CA93 /* MusicTableViewController.swift in Sources */,
 				500B26C729F6F8020016CA93 /* MoviesTableViewCell.swift in Sources */,
